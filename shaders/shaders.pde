@@ -1,7 +1,7 @@
-import gifAnimation.*;
+//import gifAnimation.*;
 
-int counter = 0;
-GifMaker ficherogif;
+//int counter = 0;
+//GifMaker ficherogif;
 
 PShader sh;
 PImage bg,imageUp,imageDown,imageMouse,imageEnter,imageRueda;
@@ -24,8 +24,8 @@ void setup() {
   loadImages();
   font1 = loadFont("OCRAExtended-48.vlw");
   
-  ficherogif = new GifMaker( this , "animacion.gif") ;
-  ficherogif.setRepeat(0);
+  //ficherogif = new GifMaker( this , "animacion.gif") ;
+  //ficherogif.setRepeat(0);
  
 }
 
@@ -55,7 +55,7 @@ void draw() {
     capturarPuntos();
   }
   
-  ficherogif.addFrame();
+  //ficherogif.addFrame();
 }
 
 void loadImages() {
