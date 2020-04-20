@@ -22,7 +22,7 @@ Correo: doramas.baez101@alu.ulpgc.es
 * [Referencias](#referencias)
 
 ## Introducción
-El objetivo de esta practica es familiarizarnos con el uso de shaders en processing. En este caso se han utilizado shaders de fragmentos, con el objetivo de simular el tipico censurado que se aplica a las imagenes.
+El objetivo de esta practica es familiarizarnos con el uso de shaders en processing. En este caso se han utilizado shaders de fragmentos, con el objetivo de simular el tipico censurado que se aplica a las imágenes.
 
 ## Dependencias
 Para poder ejecutar la práctica, necesitamos clonar este repositorio y poder ejecutar processing. 
@@ -32,15 +32,15 @@ Para poder ejecutar la práctica, necesitamos clonar este repositorio y poder ej
 
 ### Información general <a id="informaciónGeneral"></a>
 
-Básicamente disponemos de un menú cuando iniciamos la aplicación, en el que se nos explicarán los controles. Los propios iconos del menú, se ha creado utilizando adobe xd, para intentar mantener la estética de las prácticas anteriores. En este caso, disponemos de los siguientes controles:
+Básicamente disponemos de un menú cuando iniciamos la aplicación, en el que se nos explicarán los controles. Los propios iconos del menú, se han creado utilizando adobe xd, para intentar mantener la estética de las prácticas anteriores. En este caso, disponemos de los siguientes controles:
  - ruedaMouse: Podemos aumentar el tamaño del circulo que se utilizará para la censura de la imagen.
  - clickMouse: Nos permitirá elegir el sitio donde queremos mostrar dicho circulo.
- - Enter: Cambiar entre modo pausa y modo resume .
+ - Enter: Cambiar entre modo pausa y modo resume.
 
  
 
 ### Shader<a id="Shader"></a>
-Se va a aplicar el shader sobre un cículo (pudiendo encajar con la cara de una persona o un objeto), con el objetivo de censurar dicho contenido. Se ha intentado hacer el tíico pixelado de cuadritos negros con un cierto movimiento. Para ello, nos hemos modificado un ejemplo de la asignatura, aumentando la densidad de pixelado y haciendo una rotación sobre dichos pixeles para dar una sensaciónde movimiento.
+Se va a aplicar el shader sobre un círculo (pudiendo encajar con la cara de una persona o un objeto), con el objetivo de censurar dicho contenido. Se ha intentado hacer el típico pixelado de cuadritos negros con un cierto movimiento. Para ello, se ha modificado un ejemplo de la asignatura, aumentando la densidad de pixelado y haciendo una rotación sobre dichos pixeles para dar una sensaciónde movimiento.
 
 
 
