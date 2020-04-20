@@ -21,7 +21,7 @@ Correo: doramas.baez101@alu.ulpgc.es
 * [Referencias](#referencias)
 
 ## Introducción
-El objetivo de esta práctica consiste en la elaboración de diferentes filtros sobre una captura de video. En este caso, vamos a aplicar un blur y modificar los canales RGB de la imagen original. Para ello, haremos uso de la librería openCV que tiene distintas funcionalidades como en este caso CVimage y Imgproc. Que son básicamente, las funcionalidades que se han utilizado para esta práctica.
+
 
 
  
